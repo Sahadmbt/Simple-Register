@@ -69,7 +69,7 @@ label{
     transition: 0.3s ease all;
 }
 
-input:focus~label:not(:placeholder-shown)~label{
+input:focus~label,input:not(:placeholder-shown)~label{
     top:-3em;
     color:hsl(327,90%,28%) ;
     font-size: 15px;
